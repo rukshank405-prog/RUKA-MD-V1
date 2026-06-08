@@ -85,9 +85,9 @@ async function connectToWA() {
         connectToWA();
       }
     } else if (connection === 'open') {
-      console.log('✅ DANUWA-MD connected to WhatsApp');
+      console.log('✅ RUKA-MD V1 connected to WhatsApp');
 
-      const up = `DANUWA-MD connected ✅\n\nPREFIX: ${prefix}`;
+      const up = `RUKA-MD V1 connected ✅\n\nPREFIX: ${prefix}`;
       await danuwa.sendMessage(ownerNumber[0] + "@s.whatsapp.net", {
         image: { url: `Imagine/Screenshot_20260608_202555.jpg` },
         caption: up
@@ -179,7 +179,7 @@ async function connectToWA() {
 ensureSessionFile();
 
 app.get("/", (req, res) => {
-  res.send("Hey, DANUWA-MD started✅");
+  res.send("Hey, RUKA-MD V1 started✅");
 });
 
 app.listen(port, () => console.log(`Server listening on http://localhost:${port}`));

@@ -1,8 +1,8 @@
 {
-  "name": "DANUWA-MD",
+  "name": "RukA-MD V1",
   "description": "Javascript WhatsApp bot made by Danuka Dissanayake",
-  "logo": "https://github.com/DANUWA-MD/DANUWA-MD/blob/main/images/DANUWA-MD.png?raw=true",
-  "keywords": ["DANUWA-MD"],
+  "logo": "Imagine/Screenshot_20260608_202555.jpg",
+  "keywords": ["RUKA-MD V1"],
   "success_url": "/",
 
   "env": {
